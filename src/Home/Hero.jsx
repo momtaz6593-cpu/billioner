@@ -1,11 +1,11 @@
 import React from 'react';
-
+import heroImg from '../assets/Hero-img.png'
 const Hero = () => {
   return (
     <div>
       <div 
         className='aspect-[16/9] w-full bg-cover bg-center relative flex items-center'
-        style={{ backgroundImage: "url('/Hero-img.png')" }}
+        style={{ backgroundImage: `url(${heroImg})` }}
       >
         {/* Dark Gradient Overlay for Readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
